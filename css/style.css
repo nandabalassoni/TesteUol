@@ -1,0 +1,96 @@
+/*LAYOUT DESKTOP */
+
+#topo{
+    background-color: #ffbb33;
+    height: 31px;
+    width:100%;
+}
+
+#topo img{
+    width:20px;
+    margin-left: 44.5%;
+    padding-top: 4px;
+}
+
+#topo p {
+    margin-left: 46%;
+    margin-top: -23px;
+    color: black;
+    font-size: 19px;
+}
+
+#corpo img{
+    width: 205.4%;
+    margin-left: -10px;
+}
+
+#itens {
+    background-color:#EDEDED;
+}
+
+#bola {
+    padding-top: 20px;
+}
+
+#desktop {
+    margin-top: 17px;
+}
+
+#text {
+    margin-top: -74px;
+    margin-left: 102px;
+}
+
+#itens .col-md-4 {
+    margin-left: 11%;
+}
+
+#last-text{
+    margin-top: -52px;
+    margin-left: 102px;
+}
+
+#footer {
+    background-color: gray;
+    height: 155px;
+}
+
+/* LAYOUT RESPONSIVO */
+
+@media only screen and (max-width: 768px) {
+
+    #topo {
+        height: 35px;
+        position: fixed;
+        z-index: 1;
+    }
+    #topo p {
+        margin-left: 34%;
+        margin-top: -25px;
+        color: black;
+        font-size: 19px;
+    }
+
+    #topo img {
+        width: 24px;
+        margin-left: 28%;
+        padding-top: 4px;
+    }
+
+    #corpo img {
+        width: 104.8%;
+        height: 650px;
+        opacity: 0.6;
+    }
+
+    #itens {
+        height: 293px;
+    }
+}
+
+
+/*@media only screen and (max-width: 693px) {
+    #topo img{
+        margin-left:43%;
+    }
+}
