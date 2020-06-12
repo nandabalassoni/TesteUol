@@ -1,3 +1,4 @@
+
 /*LAYOUT DESKTOP */
 
 #topo{
@@ -52,8 +53,50 @@
 
 #footer {
     background-color:#333333;
-    height: 155px;
+    height: 402px;
+    
 }
+
+#footer p {
+    text-align: center;
+    margin-top: 9px;
+    margin-left: 38%;
+}
+
+#footer img{
+    margin-left: 38%;
+}
+
+#footer .col-md-12{
+    margin-top: 70px;
+    margin-left: 3%;
+}
+
+#line {
+    margin-left: 20%;
+}
+
+#text-footer{
+    margin-left: -1% !important;
+}
+
+#secondText-footer{
+    margin-left: 3% !important;
+}
+
+#thirdText-footer{
+    margin-left: 17% !important;
+}
+
+#lastText-footer{
+    margin-left: -9.5% !important;
+}
+
+a{
+    color: #e6b800 !important;
+    margin-left: 39%;
+}
+
 
 /* LAYOUT RESPONSIVO */
 
@@ -85,6 +128,46 @@
 
     #itens {
         height: 293px;
+    }
+
+    #footer{
+        margin-left: -14px;
+    }
+
+    #footer img {
+        margin-left: 37%;
+    }
+
+    #footer p {
+        text-align: center;
+        margin-top: 9px;
+        margin-left: 37%;
+        text-align: justify;
+    }
+
+    #line {
+        margin-left: 2% !important;
+    }
+
+    #text-footer {
+        margin-left: 37% !important;
+    }
+
+    #secondText-footer {
+        margin-left: 37% !important;
+    }
+
+    #thirdText-footer {
+        margin-left: 37% !important;
+    }
+
+    #lastText-footer {
+        margin-left: 37% !important;
+    }
+
+    #footer .col-md-12 {
+        margin-top: 14px;
+        margin-left: -53%;
     }
 }
 
