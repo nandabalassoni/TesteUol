@@ -98,6 +98,131 @@ a{
 }
 
 
+#title{
+    margin-top: 3%;
+    margin-left: 30%;
+}
+
+#title p{
+    font-size: 32px;
+}
+
+#extra{
+    margin-left: 40%;
+    margin-top: -11%;
+    color: #ffbb33 !important;
+    font-weight: 900;
+}
+
+#first-card{
+    background-color:#D9D8D6;
+    border-radius: 6px;
+    margin-left: 18%;
+    height: 68px;
+}
+
+#espn {
+    margin-left: 26%;
+    margin-top: 5%;
+}
+
+section{
+    height: 319px;
+    margin-top: 1%;
+    margin-left: 5% !important;
+}
+
+#line-items{
+    background-color: #EBEDEF;
+    margin-top: 4%;
+    margin-left: -2.5%;
+    width: 105%;
+    height: 126%;
+}
+
+#nfl{
+    width: 13%;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+#nba {
+    width: 20%;
+}
+
+#usOpen{
+    width: 17%;
+    margin-left: 2%;
+}
+
+#laLiga{
+    width: 14%;
+    margin-top: 3%;
+    margin-left: 4%;
+}
+
+#premier {
+    width: 13%;
+    margin-left: 4%;
+}
+
+#last-card {
+    background-color: #D9D8D6;
+    border-radius: 6px;
+    width: 106%;
+    margin-left: -3%;
+    height: 99%
+}
+
+#second-card{
+    background-color:#D9D8D6;
+    border-radius: 6px;
+    margin-left: 1%;
+    height: 68px;
+}
+
+#watchEspn{
+    margin-top: 1%;
+    margin-left: 63%;
+}
+
+#text-article{
+    margin-top: -12%;
+    margin-left: 5%;
+}
+
+#espInterativo{
+    margin-left: 20%;
+    padding-top: 3%;
+    width: 51%;
+}
+
+#line-items1 {
+    background-color: #EBEDEF;
+    margin-top: 4%;
+    margin-left: -2.5%;
+    width: 105%;
+    height: 126%;
+}
+
+#champions{
+    width: 24%;
+    margin-left: 16%;
+}
+
+#brasileirao {
+    margin-left: 15%;
+    width: 20%;
+}
+
+#eplus{
+    padding-left: 63%;
+    padding-top: 1%;
+}
+
+
+ 
+
 /* LAYOUT RESPONSIVO */
 
 @media only screen and (max-width: 768px) {
@@ -132,6 +257,7 @@ a{
 
     #footer{
         margin-left: -14px;
+        margin-top: 8%;
     }
 
     #footer img {
@@ -173,6 +299,81 @@ a{
     a{
         margin-left: 37%;
     }
+
+    #title {
+        margin-top: 8%;
+        margin-left: 13%;
+    }
+
+    #title p {
+        font-size: 35px;
+    }
+
+    #extra{
+        margin-left: 22%;
+        margin-top: -14%;
+        font-weight: 900;
+        color: #ffbb33 !important;
+        font-weight: 900;
+    }
+
+    section {
+        height: 487px;
+        margin-top: 1%;
+        margin-left: 5% !important;
+    }
+
+    #first-card {
+        background-color: #D9D8D6;
+        border-radius: 6px;
+        margin-left: 1%;
+        height: 68px;
+        width: 94%;
+    }
+
+    #second-card {
+        background-color: #D9D8D6;
+        border-radius: 6px;
+        margin-left: 1%;
+        height: 68px;
+        margin-top: 46%;
+        width: 94%;
+    }
+
+    #line-items1 {
+        background-color: #EBEDEF;
+        margin-top: 2%;
+        margin-left: -2.5%;
+        width: 105%;
+        height: 126%;
+    }
+
+    #brasileirao {
+        margin-left: 15%;
+        width: 19.3%;
+    }
+
+    #champions {
+        width: 22%;
+        margin-left: 18%;
+    }
+
+    #eplus {
+        padding-left: 68%;
+        padding-top: 1%;
+    }
+
+    #text-article {
+        margin-top: -12%;
+        margin-left: 12%;
+    }
+
+    #watchEspn {
+        margin-top: 1%;
+        margin-left: 67%;
+    }
+
+   
 }
 
 
