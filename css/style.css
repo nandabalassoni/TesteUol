@@ -476,6 +476,109 @@ section{
         margin-left: 67%;
     }
 
+    #logos {
+        width: 76% !important;
+        margin-left: 13.5% !important;
+        margin-top: -270%;
+        z-index: 1;
+        opacity: 1 !important;
+        height: 150px !important;
+    }
+
+    #firstText-corpo {
+        margin-left: 18%;
+        font-size: 33px;
+        color: white;
+        margin-top: -113%;
+    }
+
+    #secondText-corpo {
+        margin-left: 26%;
+        font-size: 23px;
+        margin-top: -4%;
+        color: white;
+    }
+
+    #descricao {
+        margin-left: 4%;
+        color: white;
+        font-size: 16px;
+    }
+
+    #alert {
+        margin-left: 40%;
+        color: white;
+        background-color: #ed3c36;
+        width: 21%;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    #indio {
+        width: 26% !important;
+        height: 90px !important;
+        margin-left: 4% !important;
+        margin-top: -13%;
+        opacity: 1 !important;
+    }
+
+    #dateTime {
+        margin-left: 35%;
+        margin-top: -10%;
+        color: white;
+        font-size: 20px;
+    }
+
+    #aguia {
+        width: 28% !important;
+        margin-left: 69% !important;
+        margin-top: -36%;
+        height: 109px !important;
+        opacity: 1 !important;
+    }
+
+    #nomeTimeUm {
+        margin-left: 8%;
+        margin-top: -3%;
+        color: white;
+        font-weight: 600;
+    }
+
+    #nomeTimeDois {
+        margin-left: 77%;
+        margin-top: -19%;
+        color: white;
+        font-weight: 600;
+    }
+
+    #alertDois {
+        margin-left: 46%;
+        color: #ed3c36;
+        width: 13%;
+        text-align: center;
+        font-weight: bold;
+        margin-top: -10%;
+        font-size: 29px;
+    }
+
+    #propaganda {
+        margin-left: 19%;
+        background-color: #fdc220;
+        width: 57%;
+        text-align: center;
+        color: black;
+        height: 30px;
+        font-size: 20px;
+        border-radius: 4px;
+    }
+
+    #inform {
+        margin-top: -2%;
+        margin-left: 27%;
+        color: white;
+        font-size: 12px;
+    }
+
    
 }
 
